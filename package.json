@@ -1,0 +1,16 @@
+{
+  "name": "transport-tracker-server",
+  "version": "1.0.0",
+  "description": "The server component for Transport Tracker",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Manoj, Ravi, Pavan, Alekhya",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "asyncawait": "^1.0.8",
+    "bluebird": "^3.7.1",
+    "csv-parse": "^4.6.5",
+    "sqlite3": "^4.1.0"
+  }
+}

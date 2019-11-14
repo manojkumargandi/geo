@@ -3,14 +3,22 @@
   "version": "1.0.0",
   "description": "The server component for Transport Tracker",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "runpaths": "node generate_paths.js"
   },
   "author": "Manoj, Ravi, Pavan, Alekhya",
   "license": "Apache-2.0",
   "dependencies": {
+    "@google/maps": "^1.0.2",
+    "@mapbox/polyline": "^1.1.0",
     "asyncawait": "^1.0.8",
     "bluebird": "^3.7.1",
     "csv-parse": "^4.6.5",
+    "firebase-admin": "^8.7.0",
+    "moment": "^2.24.0",
     "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
   }
 }
